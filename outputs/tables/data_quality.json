@@ -1,0 +1,11 @@
+{
+  "null_customer_id": 0,
+  "invalid_timestamp": 0,
+  "duplicate_rows": 3196102,
+  "rows_used": 19409015,
+  "sample_pct": 10,
+  "customers": 2229481,
+  "customer_days": 4697476,
+  "date_from": "2022-06-23",
+  "date_to": "2022-12-08"
+}

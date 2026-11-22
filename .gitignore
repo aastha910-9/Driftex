@@ -1,0 +1,7 @@
+data/raw/*
+data/processed/*
+demo_data/
+outputs/models/
+__pycache__/
+*.pyc
+!data/raw/.gitkeep

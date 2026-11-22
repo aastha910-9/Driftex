@@ -1,0 +1,16 @@
+{
+  "best_drift_enhanced_model": "XGBoost",
+  "train_end": "2022-09-06",
+  "test_start": "2022-10-06",
+  "n_train": 2158882,
+  "n_test": 1642640,
+  "threshold": 0.5,
+  "positive_class": "inactive_30d = 1",
+  "warning_lead_time": {
+    "customers_with_inactivity_episode": 1617474,
+    "customers_warned": 1121,
+    "share_warned": 0.0006930559625687955,
+    "median_lead_days": 23.0,
+    "mean_lead_days": 32.17038358608385
+  }
+}

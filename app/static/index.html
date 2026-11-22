@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DRIFTEX · Product Interest Intelligence</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<aside id="side">
+  <div class="brand"><div class="logo">D</div><div><b>DRIFTEX</b><span>Product Interest Intelligence</span></div></div>
+  <nav id="nav">
+    <div class="nav-h">Monitor</div>
+    <a href="#overview" data-v="overview"><i>▦</i>Executive Overview</a>
+    <a href="#live" data-v="live"><i>●</i>Live Monitor</a>
+    <div class="nav-h">Products</div>
+    <a href="#products" data-v="products"><i>☰</i>Product Explorer</a>
+    <a href="#product" data-v="product"><i>↗</i>Product Analysis</a>
+    <a href="#categories" data-v="categories"><i>◫</i>Category Insights</a>
+    <div class="nav-h">Intelligence</div>
+    <a href="#alerts" data-v="alerts"><i>!</i>Alerts &amp; Anomalies</a>
+    <a href="#model" data-v="model"><i>◈</i>Model &amp; Methodology</a>
+  </nav>
+  <div class="side-foot"><div id="asof"></div><div class="muted">Dataset: Synerise behavioural events</div></div>
+</aside>
+<main>
+  <header id="top">
+    <div><h1 id="title"></h1><p id="subtitle"></p></div>
+    <form id="jump" autocomplete="off"><input id="jumpInput" placeholder="Go to product ID…" inputmode="numeric"><button>Open</button></form>
+  </header>
+  <section id="content"></section>
+</main>
+<div id="tip"></div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

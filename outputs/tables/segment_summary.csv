@@ -1,0 +1,4 @@
+segment_name,customers,avg_events,avg_active_days,avg_events_per_active_day,avg_buys,avg_recency_days,share_pct
+Highly engaged (lapsing),109833,86.28,7.89,16.13,1.27,47.43,4.9
+Regular,593020,10.05,3.24,3.31,0.03,21.86,26.6
+Occasional (lapsing),1526628,2.6,1.25,2.06,0.02,94.35,68.5
